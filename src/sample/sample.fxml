@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="nam1" layoutX="22.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="20.0" />
+      <TextField fx:id="nam9" layoutX="362.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="340.0" />
+      <TextField fx:id="nam8" layoutX="317.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="300.0" />
+      <TextField fx:id="nam7" layoutX="276.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="260.0" />
+      <TextField fx:id="nam4" layoutX="157.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="140.0" />
+      <TextField fx:id="nam3" layoutX="113.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="100.0" />
+      <TextField fx:id="nam2" layoutX="63.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="60.0" />
+      <TextField fx:id="nam5" layoutX="197.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="180.0" />
+      <TextField fx:id="nam6" layoutX="236.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="220.0" />
+      <TextField fx:id="nam13" layoutX="549.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="500.0" />
+      <TextField fx:id="nam12" layoutX="460.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="460.0" />
+      <TextField fx:id="nam10" layoutX="381.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="380.0" />
+      <TextField fx:id="nam11" layoutX="421.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="420.0" />
+      <TextField fx:id="nam14" layoutX="543.0" layoutY="23.0" prefHeight="25.0" prefWidth="30.0" AnchorPane.leftAnchor="540.0" />
+      <Button fx:id="butSum" layoutX="24.0" layoutY="58.0" mnemonicParsing="false" onAction="#sout" text="Посчитать" />
+      <Label fx:id="result" layoutX="116.0" layoutY="62.0" text="Средний бал:  " />
+   </children>
+</AnchorPane>
